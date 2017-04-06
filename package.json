@@ -1,0 +1,47 @@
+{
+    "author": "The Project 2.0",
+    "dependencies": {},
+    "keywords": [],
+    "name": "bg-clock",
+    "pebble": {
+        "capabilities": [
+            "configurable"
+        ],
+        "displayName": "Clock in Bulgarian",
+        "enableMultiJS": false,
+        "messageKeys": {
+            "AppKeyDateFormat": 1,
+            "AppKeyTimeFormat": 0
+        },
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "characterRegex": "[:0-9A-Za-z.-\\u00AD \u0430-\u044f\u0410-\u042f\\/]",
+                    "file": "fonts/RobotoCondensed-Bold.ttf",
+                    "name": "ROBOTO_CONDENSED_24",
+                    "targetPlatforms": null,
+                    "type": "font"
+                },
+                {
+                    "characterRegex": "[:0-9A-Za-z.-\\u00AD \u0430-\u044f\u0410-\u042f\\/]",
+                    "file": "fonts/DroidSans-Bold_24.ttf",
+                    "name": "FONT_DROID_SANS_BOLD_24",
+                    "targetPlatforms": null,
+                    "type": "font"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "aplite",
+            "basalt",
+            "chalk"
+        ],
+        "uuid": "cbcee72d-f1a5-421c-a396-564835c8f0f3",
+        "watchapp": {
+            "watchface": true
+        }
+    },
+    "version": "1.17.0"
+}
